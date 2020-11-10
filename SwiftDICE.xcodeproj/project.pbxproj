@@ -11,10 +11,10 @@
 		2E7A144E2535EBF7002C9BBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7A144D2535EBF7002C9BBE /* SceneDelegate.swift */; };
 		2E7A14502535EBF7002C9BBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7A144F2535EBF7002C9BBE /* ViewController.swift */; };
 		2E7A14532535EBF7002C9BBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E7A14512535EBF7002C9BBE /* Main.storyboard */; };
-		2E7A14552535EBF8002C9BBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E7A14542535EBF8002C9BBE /* Assets.xcassets */; };
 		2E7A14582535EBF8002C9BBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E7A14562535EBF8002C9BBE /* LaunchScreen.storyboard */; };
 		2E7A14632535EBF8002C9BBE /* SwiftDICETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7A14622535EBF8002C9BBE /* SwiftDICETests.swift */; };
 		2E7A146E2535EBF8002C9BBE /* SwiftDICEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7A146D2535EBF8002C9BBE /* SwiftDICEUITests.swift */; };
+		2E7A147F253D3956002C9BBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E7A147E253D3956002C9BBE /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 		2E7A144D2535EBF7002C9BBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2E7A144F2535EBF7002C9BBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2E7A14522535EBF7002C9BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2E7A14542535EBF8002C9BBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E7A14572535EBF8002C9BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E7A14592535EBF8002C9BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E7A145E2535EBF8002C9BBE /* SwiftDICETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDICETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +48,7 @@
 		2E7A14692535EBF8002C9BBE /* SwiftDICEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDICEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E7A146D2535EBF8002C9BBE /* SwiftDICEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDICEUITests.swift; sourceTree = "<group>"; };
 		2E7A146F2535EBF8002C9BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E7A147E253D3956002C9BBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 				2E7A144D2535EBF7002C9BBE /* SceneDelegate.swift */,
 				2E7A144F2535EBF7002C9BBE /* ViewController.swift */,
 				2E7A14512535EBF7002C9BBE /* Main.storyboard */,
-				2E7A14542535EBF8002C9BBE /* Assets.xcassets */,
+				2E7A147E253D3956002C9BBE /* Assets.xcassets */,
 				2E7A14562535EBF8002C9BBE /* LaunchScreen.storyboard */,
 				2E7A14592535EBF8002C9BBE /* Info.plist */,
 			);
@@ -232,7 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E7A14582535EBF8002C9BBE /* LaunchScreen.storyboard in Resources */,
-				2E7A14552535EBF8002C9BBE /* Assets.xcassets in Resources */,
+				2E7A147F253D3956002C9BBE /* Assets.xcassets in Resources */,
 				2E7A14532535EBF7002C9BBE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

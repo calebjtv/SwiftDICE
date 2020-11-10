@@ -16,28 +16,62 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="CS 315 Dice App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RPF-vX-y9j">
-                                <rect key="frame" x="143" y="438" width="128" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice1" translatesAutoresizingMaskIntoConstraints="NO" id="Xj6-eU-g6L">
+                                <rect key="frame" x="71" y="286" width="272" height="324"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="324" id="kSa-ad-0yf"/>
+                                    <constraint firstAttribute="width" constant="272" id="pej-QN-9Fl"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get Rollin'" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dCt-xz-yb0">
+                                <rect key="frame" x="135" y="637" width="144" height="39.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" alpha="0.29999999999999999" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aTq-fb-vXg">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <connections>
+                                    <action selector="buttonGotPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="sGQ-Nf-MaG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="RPF-vX-y9j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KES-Lp-Z15"/>
-                            <constraint firstItem="RPF-vX-y9j" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gzO-na-2E4"/>
-                            <constraint firstItem="RPF-vX-y9j" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="394" id="sOM-zg-FUw"/>
+                            <constraint firstItem="aTq-fb-vXg" firstAttribute="centerY" secondItem="Xj6-eU-g6L" secondAttribute="centerY" id="1u0-pO-OkA"/>
+                            <constraint firstItem="aTq-fb-vXg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="2th-3d-5bN"/>
+                            <constraint firstItem="dCt-xz-yb0" firstAttribute="centerX" secondItem="Xj6-eU-g6L" secondAttribute="centerX" id="3QM-d4-gnf"/>
+                            <constraint firstItem="Xj6-eU-g6L" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="71" id="7Wl-du-BYZ"/>
+                            <constraint firstItem="Xj6-eU-g6L" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="C3l-xG-fkB"/>
+                            <constraint firstItem="aTq-fb-vXg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Dmp-3g-jXl"/>
+                            <constraint firstItem="Xj6-eU-g6L" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Dqj-Dq-c0i"/>
+                            <constraint firstItem="aTq-fb-vXg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="F1Q-wA-zDA"/>
+                            <constraint firstItem="Xj6-eU-g6L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MZw-eQ-LNg"/>
+                            <constraint firstItem="Xj6-eU-g6L" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="242" id="RET-rJ-ob7"/>
+                            <constraint firstItem="Xj6-eU-g6L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SLJ-Bf-fNB"/>
+                            <constraint firstItem="dCt-xz-yb0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XA1-JN-Lhg"/>
+                            <constraint firstItem="aTq-fb-vXg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="csn-9p-KVL"/>
+                            <constraint firstItem="aTq-fb-vXg" firstAttribute="centerX" secondItem="Xj6-eU-g6L" secondAttribute="centerX" id="dYN-lB-MVf"/>
+                            <constraint firstItem="Xj6-eU-g6L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="htE-yY-o4o"/>
+                            <constraint firstItem="dCt-xz-yb0" firstAttribute="top" secondItem="Xj6-eU-g6L" secondAttribute="bottom" constant="27" id="oTR-N2-Kk8"/>
+                            <constraint firstItem="aTq-fb-vXg" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="t0g-jI-SZB"/>
+                            <constraint firstAttribute="bottom" secondItem="aTq-fb-vXg" secondAttribute="bottom" id="tqo-tT-QeY"/>
+                            <constraint firstItem="Xj6-eU-g6L" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vU4-4O-cY3"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="criticalLabel" destination="dCt-xz-yb0" id="FS6-MP-x0K"/>
+                        <outlet property="diceImageView" destination="Xj6-eU-g6L" id="qtw-Bd-6Oa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="89"/>
+            <point key="canvasLocation" x="18.840579710144929" y="88.392857142857139"/>
         </scene>
     </scenes>
     <resources>
+        <image name="dice1" width="1512" height="2016"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
